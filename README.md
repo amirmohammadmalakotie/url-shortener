@@ -1,6 +1,6 @@
 # 🔗 URL Shortener
 
-A RESTful URL Shortener API built with Node.js, Express.js, Sequelize, and MySQL.
+A RESTFUL URL Shortener API built with Node.js, Express.js, Sequelize, and MySQL.
 
 ## 🚀 Features
 
