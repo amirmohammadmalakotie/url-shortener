@@ -1,6 +1,9 @@
 # 🔗 URL Shortener
 
 A RESTFUL URL Shortener API built with Node.js, Express.js, Sequelize, and MySQL.
+## 📸 Preview
+
+![Swagger API Documentation](docs/swagger-preview.png)
 
 ## 🚀 Features
 
