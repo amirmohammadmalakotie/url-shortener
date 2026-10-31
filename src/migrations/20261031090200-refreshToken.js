@@ -1,0 +1,37 @@
+'use strict';
+
+/** @type {import('sequelize-cli').Migration} */
+module.exports = {
+  async up(queryInterface, Sequelize) {
+
+    await queryInterface.createTable('refreshTokens', {
+      id: {
+        type: Sequelize.INTEGER,
+        autoIncrement: true,
+        primaryKey: true,
+        allowNull: false
+      },
+      user_id: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+          model: "users",
+          key: "id"
+        },
+        onDelete: "CASCADE",
+        onUpdate: "CASCADE"
+      },
+      token: {
+        type: Sequelize.STRING,
+        allowNull: false
+      }
+    });
+
+  },
+
+  async down(queryInterface, Sequelize) {
+
+      await queryInterface.dropTable('refreshTokens');
+     
+  }
+};
