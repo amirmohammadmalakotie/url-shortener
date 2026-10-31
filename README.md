@@ -3,7 +3,7 @@
 A RESTFUL URL Shortener API built with Node.js, Express.js, Sequelize, and MySQL.
 ## 📸 Preview
 
-![Swagger API Documentation](docs/swagger-preview.png)
+![Swagger API Documentation](src/docs/swagger-preview.png)
 
 ## 🚀 Features
 
